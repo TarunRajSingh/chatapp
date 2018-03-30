@@ -27,9 +27,8 @@
     "serve-favicon": "^2.3.0",
     "socket.io": "^1.3.5",
     "socket.io-client": "^1.3.5",
-    "socketio-jwt": "^4.2.0"
-  },
-  "devDependencies": {
+    "socketio-jwt": "^4.2.0",
+ 
     "autoprefixer": "^6.0.0",
     "babel-core": "^6.6.5",
     "babel-register": "^6.6.5",
@@ -106,7 +105,7 @@
     "supertest": "^1.1.0"
   },
   "engines": {
-    "node": "^4.4.0",
+    "node": "^6.11.0",
     "npm": "^2.14.20"
   },
   "scripts": {
