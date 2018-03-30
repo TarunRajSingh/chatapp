@@ -19,6 +19,9 @@ module.exports = {
           process.env.MONGOHQ_URL ||
           process.env.OPENSHIFT_MONGODB_DB_URL +
           process.env.OPENSHIFT_APP_NAME ||
-          'mongodb://localhost/chat'
+//           'mongodb://localhost/chat'
+
++    //http://docs.mlab.com/connecting/
++    'mongodb://<dbuser>:<dbpwd>@ds135xxx.mlab.com:3xxx/xx'
   }
 };
